@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ang">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMC LEADERS - التسويق والتطوير</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header>
+        <div class="container">
+            <h1>AMC LEADERS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testmonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section id="hero"> 
+       <h2>نجاحك هدفنا<h2>
+       <p>مع AMC LEADERS، نحقق أهدافك بخبرتنا واستراتيجياتنا المبتكرة</p>
+        <a href="#services" class="button">تعرف على خدماتنا</a>
+    </section>
+
+    <!-- قسم من نحن -->
+    <section id="about" class="container">
+        <h2>من نحن</h2>
+        <p>AMC LEADERS هي شركة متخصصة في التسويق وتطوير الأعمال. نقدم حلولاً مبتكرة تلبي احتياجات عملائنا وتساعدهم على تحقيق النجاح والنمو المستدام.</p>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section id="services" class="container">
+        <h2>خدماتنا</h2>
+        <div class="service-card">
+            <h3>التسويق الرقمي</h3>
+            <p>نوفر استراتيجيات تسويق رقمية متميزة تساعد في بناء علامتك التجارية.</p>
+        </div>
+        <div class="service-card">
+            <h3>تطوير الأعمال</h3>
+            <p>نساعدك على تطوير أعمالك باستخدام أساليب حديثة ورؤية مبتكرة.</p>
+        </div>
+    </section>
+
+    <!-- قسم آراء العملاء -->
+    <section id="testimonials" class="container">
+        <h2>آراء العملاء</h2>
+        <div class="testimonial">
+            <p>"خدمة رائعة وفريق محترف!"</p>
+            <p>- أحمد من شركة XYZ</p>
+        </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="container">
+        <h2>تواصل معنا</h2>
+        <form action="send_email.php" method="post">
+            <input type="text" name="name" placeholder="اسمك" required>
+            <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+            <textarea name="message" placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+<script src="script.js"></script>
+
+</body>
+</html>
